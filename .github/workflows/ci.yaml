@@ -13,117 +13,29 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Compile with Grunt
-        uses: elstudio/actions-js-build/build@v2
+      - name: Install Gulp
+        run: npm install gulp-cli -g
+
+      - name: Install Node packages
+        run: npm install
+        working-directory: theme-generator
+
+      - name: Gulp generate
+        run: gulp dist
+        working-directory: theme-generator
+
+      - run: cp -a /theme-generator/dist/. /static/
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          wdPath: 'theme-generator'
+          hugo-version: 'latest'
+      
+      - name: Minify
+        run: hugo --minify
 
-
-      - name: Set build number
-
-      - run: echo $ANDROID_SIGNING_KEY_BASE64 | base64 -d > android/app/key.jks
-        env:
-          ANDROID_SIGNING_KEY_BASE64: ${{ secrets.ANDROID_SIGNING_KEY_BASE64 }}
-
-      - uses: subosito/flutter-action@v1
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          channel: 'stable'
-
-      - run: dart --version
-      - run: flutter --version
-
-      - run: flutter pub get
-
-      - run: flutter analyze || true
-
-      - run: flutter test
-
-      - run: flutter build appbundle --build-number ${{ env.BUILD_NUMBER }}
-        env:
-          KEY_STORE_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}
-          KEY_PATH: key.jks
-
-      - uses: actions/upload-artifact@v2
-        name: Upload Android AAB
-        with:
-          name: app-release.aab
-          path: build/app/outputs/bundle/release/app-release.aab
-
-      - uses: actions/upload-artifact@v2
-        name: Upload Proguard mapping.txt
-        with:
-          name: mapping.txt
-          path: build/app/outputs/mapping/release/mapping.txt
-
-      - uses: actions/upload-artifact@v2
-        name: Upload pubspec.lock
-        with:
-          name: pubspec.lock
-          path: pubspec.lock
-
-      - run: flutter build apk --target-platform android-arm64 --analyze-size --build-number ${{ env.BUILD_NUMBER }}
-        env:
-          KEY_STORE_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.ANDROID_SIGNING_KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.ANDROID_SIGNING_KEY_ALIAS }}
-          KEY_PATH: key.jks
-
-      - uses: actions/upload-artifact@v2
-        name: Upload Android APK
-        with:
-          name: app-release.apk
-          path: build/app/outputs/flutter-apk/app-release.apk
-
-      - uses: actions/upload-artifact@v2
-        name: Upload Size artifact
-        with:
-          name: apk-code-size-analysis.json
-          path: build/apk-code-size-analysis_01.json
-
-  deploy_android_firebase_distribution:
-    name: Firebase App Distribution publish for testing
-    runs-on: ubuntu-20.04
-    needs: build_android
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@master
-
-      - name: Download APK
-        uses: actions/download-artifact@v2
-        with:
-          name: app-release.apk
-
-      - name: upload artifact to Firebase App Distribution
-        uses: wzieba/Firebase-Distribution-Github-Action@v1
-        with:
-          appId: ${{secrets.ANDROID_FIREBASE_APP_ID}}
-          token: ${{secrets.FIREBASE_TOKEN}}
-          groups: internal
-          file: app-release.apk
-
-  deploy_google_play_internal_testing:
-    name: Google play Internal Testing deploy AAB 
-    runs-on: ubuntu-20.04
-    needs: build_android
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - name: Download AAB
-        uses: actions/download-artifact@v2
-        with:
-          name: app-release.aab
-
-      - name: Download mapping.txt
-        uses: actions/download-artifact@v2
-        with:
-          name: mapping.txt
-
-      - uses: r0adkll/upload-google-play@v1
-        name: Upload to Google play for Internal testing
-        with:
-          serviceAccountJsonPlainText: ${{ secrets.ANDROID_SERVICE_ACCOUNT_JSON }}
-          packageName: lt.nephrolog
-          releaseFiles: app-release.aab
-          mappingFile: mapping.txt
-          track: internal
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
