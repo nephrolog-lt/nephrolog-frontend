@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main 
-      
+
 jobs:
   build_hugo:
     name: Build hugo
@@ -16,6 +16,18 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: theme-generator/node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Install Gulp
         run: npm install gulp-cli -g
 
@@ -26,8 +38,10 @@ jobs:
       - name: Gulp generate
         run: gulp dist
         working-directory: theme-generator
-
+         
       - run: cp -a theme-generator/dist/assets/. static/
+
+      - run: cp CNAME static/CNAME
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
