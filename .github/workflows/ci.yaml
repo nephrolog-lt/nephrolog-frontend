@@ -1,6 +1,9 @@
 name: Continous integration for NepgroLog frontend
-on: [push, pull_request]
-
+on:
+  push:
+    branches:
+      - main 
+      
 jobs:
   build_hugo:
     name: Build hugo
@@ -24,7 +27,7 @@ jobs:
         run: gulp dist
         working-directory: theme-generator
 
-      - run: cp -a /theme-generator/dist/. /static/
+      - run: cp -a theme-generator/dist/assets/. static/
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
