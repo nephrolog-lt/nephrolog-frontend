@@ -36,24 +36,63 @@
 - id: sectionBenefits6Description
   translation: "Sulėtinsite lėtinės inkstų ligos progresavimą"
 
+# Nutrients sector
 - id: sectionNutritionTitle
   translation: "Personalizuota mitybos skaičiuoklė"
 - id: sectionNutritionDescription
   translation: "Siūlau kažkokį description įdėti"
   
 - id: sectionNutritionStatement1Title
-  translation: "sectionNutritionStatement1Title"
+  translation: "Įrašykite"
 - id: sectionNutritionStatement1Description
-  translation: "sectionNutritionStatement1Description"
+  translation: "Įrašykite suvalgytą produktą ir akimirksiu sužinosite, kiek suvartojote kalio, natrio, fosforo, baltymų, skysčių ir kilokalorijų."
 - id: sectionNutritionStatement2Title
-  translation: "sectionNutritionStatement2Title"
+  translation: "Matykite dienos progresą"
 - id: sectionNutritionStatement2Description
-  translation: "sectionNutritionStatement2Description"
+  translation: "NephroLog apskaičiuos, kiek ir kokių elektrolitų dar galite šiandien suvartoti, nepakenkdami inkstams."
 - id: sectionNutritionStatement3Title
-  translation: "sectionNutritionStatement3Title"
+  translation: "Stebėkite savaitės dinamiką"
 - id: sectionNutritionStatement3Description
-  translation: "sectionNutritionStatement3Description"
+  translation: "Stebėdami savaitės suvestines žinosite, ar pavyko laikytis taisyklingos inkstams palankios mitybos."
 - id: sectionNutritionStatement4Title
-  translation: "sectionNutritionStatement4Title"
+  translation: "Kontroliuokite mitybą"
 - id: sectionNutritionStatement4Description
-  translation: "sectionNutritionStatement4Description"
+  translation: "Su NephroLog kontroliuokite savo mitybą lengvai ir paprastai."
+
+- id: sectionNutritionTitle
+  translation: "Personalizuota mitybos skaičiuoklė"
+- id: sectionNutritionDescription
+  translation: "Siūlau kažkokį description įdėti"
+
+# Health indicators screen
+- id: sectionHealthIndicatorsTitle
+  translation: "Sveikatos rodikliai"
+- id: sectionHealthIndicatorsDescription
+  translation: "Siūlau kažkokį description įdėti"
+  
+- id: sectionHealthIndicatorsStatement1Title
+  translation: "Fiksuokite rodiklius"
+- id: sectionHealthIndicatorsStatement1Description
+  translation: "Fiksuokite patogiai kraujo spaudimą, svorį, šlapimo kiekį, gliukozės koncentraciją kraujyje, patinimus ir savijautą kasdien."
+- id: sectionHealthIndicatorsStatement2Title
+  translation: "Sekite"
+- id: sectionHealthIndicatorsStatement2Description
+  translation: "Sekite savo sveikatos rodiklių dinamiką ir anksti pastebėsite reikšmingus pokyčius."
+- id: sectionHealthIndicatorsStatement3Title
+  translation: "Išsaugokite"
+- id: sectionHealthIndicatorsStatement3Description
+  translation: "Išsaugokite kasdienius duomenis vienoje vietoje: padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
+- id: sectionHealthIndicatorsStatement4Title
+  translation: "Kažkas"
+- id: sectionHealthIndicatorsStatement4Description
+  translation: "Kažkas description"
+
+# Team
+- id: teamSectionTitle
+  translation: "Komanda"
+- id: giedreRole
+  translation: "giedreRole"
+- id: karolisRole
+  translation: "karolisRole"
+- id: benasRole
+  translation: "BenasRole"

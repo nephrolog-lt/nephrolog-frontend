@@ -1,0 +1,24 @@
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 align-self-center pb-7 order-md-first">
+        <h2>{{ T "sectionHealthIndicatorsTitle" }}</h2>
+        <p>{{ T "sectionHealthIndicatorsDescription" }}</p>
+
+        <div class="row mt-7">
+          {{ range .Params.HealthIndicatorsStatements }}
+          <div class="col-6">
+            <p class="{{ .iconClass }} lead-5"><i class="fa fa-tv"></i></p>
+            <h5>{{ T .title }}</h5>
+            <p>{{ T .description }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col-md-5 text-center ">
+        <img class="ml-40" src="/img/sections/phone-1.png" alt="...">
+      </div>
+    </div>
+  </div>
+</section>

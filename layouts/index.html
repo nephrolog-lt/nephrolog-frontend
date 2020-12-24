@@ -1,13 +1,16 @@
 {{ define "main" }}
+
 {{ partial "navigation.html" }}
 {{ partial "header.html" }}
 
 <!-- Main Content -->
 <main class="main-content">
     {{ partial "sections/section_benefits.html" . }}
-    {{ partial "sections/section_nutrition.html" (dict "bg_class" "bg-gray") }}
-    {{ partial "sections/section_nutrition.html" (dict "bg_class" "") }}
-    
+    {{ partial "sections/section_nutrition.html" . }}
+    {{ partial "sections/section_health_indicators.html" . }}
+    {{ partial "sections/section_team.html" . }}
+    <!-- {{ partial "sections/section_nutrition.html" (dict "bg_class" "") }} -->
+
     <section class="section">
         <div class="container">
             <header class="section-header">

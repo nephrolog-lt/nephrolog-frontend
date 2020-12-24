@@ -1,40 +1,24 @@
-<section id="features" class="section bb-1 {{ .bg_class }}">
+<section class="section pb-0 bg-gray">
   <div class="container">
-    <header class="section-header">
-      <h2>{{ T "sectionNutritionTitle" }}</h2>
-      <hr>
-      <p class="lead">{{ T "sectionNutritionDescription" }}</p>
-    </header>
-    <div class="row gap-y align-items-center">
-      <div class="col-md-6 mx-auto col-lg-4 text-center text-lg-right">
-        <p class="text-info lead-6"><i class="icon-wallet"></i></p>
-        <h5>{{ T "sectionNutritionStatement1Title"}}</h5>
-        <p>{{ T "sectionNutritionStatement1Description" }}</p>
-        <br><br>
+    <div class="row">
+      <div class="col-md-7 align-self-center pb-7">
+        <h2>{{ T "sectionNutritionTitle" }}</h2>
+        <p>{{ T "sectionNutritionDescription" }}</p>
 
-        <p class="text-info lead-6"><i class="icon-linegraph"></i></p>
-        <h5>{{ T "sectionNutritionStatement2Title"}}</h5>
-        <p>{{ T "sectionNutritionStatement2Description" }}</p>
+        <div class="row mt-7">
+          {{ range .Params.NutritionStatements }}
+          <div class="col-6">
+            <p class="{{ .iconClass }} lead-5"><i class="fa fa-tv"></i></p>
+            <h5>{{ T .title }}</h5>
+            <p>{{ T .description }}</p>
+          </div>
+          {{ end }}
+        </div>
       </div>
 
-
-      <div class="col-lg-4 text-center px-5 py-7 py-lg-0">
-        <img src="/img/sections/phone-1.png" alt="phone">
+      <div class="col-md-5 text-center order-md-first">
+        <img class="mr-40" src="/img/sections/phone-1.png" alt="...">
       </div>
-
-
-      <div class="col-md-6 mx-auto col-lg-4 text-center text-lg-left">
-        <p class="text-info lead-6"><i class="icon-clipboard"></i></p>
-        <h5>{{ T "sectionNutritionStatement3Title" }}</h5>
-        <p>{{ T "sectionNutritionStatement3Description" }}</p>
-        <br><br>
-
-        <p class="text-info lead-6"><i class="icon-hourglass"></i></p>
-        <h5>{{ T "sectionNutritionStatement4Title"}}</h5>
-        <p>{{ T "sectionNutritionStatement4Description" }}</p>
-      </div>
-
     </div>
-
   </div>
 </section>

@@ -1,0 +1,29 @@
+<section class="section bg-gray" id="section-team-members">
+    <div class="container">
+        <header class="section-header">
+            <h2>{{ T "teamSectionTitle" }}</h2>
+        </header>
+        <div class="row gap-y justify-content-center">
+            {{ range .Params.Team }}
+            <div class="col-md-6 col-lg-3 team-1">
+                <img src="{{ .photo }}" alt="{{ .name }}">
+                <h6>{{ .name }}</h6><small class="text-uppercase">{{ T .role}}</small>
+                <div class="social">
+                    <a class="social-skype" href="mailto:{{ .email }}"><i class="icon-envelope"></i></a>
+
+                    {{ if (isset .social "facebook") }}
+                    <a class="social-facebook" rel="nofollow" target="_blank"
+                        href="{{ .social.facebook }}"><i class="icon-facebook-official"></i></a>
+                    {{ end }}
+
+                    {{ if (isset .social "linkedin") }}
+                    <a class="social-linkedin" rel="nofollow" target="_blank" href="{{ .social.linkedin }}">
+                        <i class="icon-linkedin-square"></i>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

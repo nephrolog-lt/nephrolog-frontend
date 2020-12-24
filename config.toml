@@ -1,6 +1,3 @@
 baseURL = "https://www.nephrolog.lt/"
 defaultContentLanguage = "lt"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
-[params]
-hello = "Labas labas labas"
