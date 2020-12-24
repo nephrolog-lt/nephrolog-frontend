@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-{{ partial "navigation.html" }}
-{{ partial "header.html" }}
+{{ partial "navigation.html" . }}
+{{ partial "header.html" . }}
 
 <main class="main-content">
     {{ partial "sections/section_benefits.html" . }}

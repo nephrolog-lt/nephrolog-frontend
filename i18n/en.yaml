@@ -1,3 +1,6 @@
+- id: languageName
+  translation: "EN"
+  
 - id: title
   translation: "NephroLog - kontroliuokite inkstų ligą lengviau"
 
