@@ -1,0 +1,59 @@
+- id: languageName
+  translation: "LT"
+- id: headerName
+  translation: "NephroLog"
+- id: headerDescription
+  translation: "Sergate lėtine inkstų liga (LIL)? NephroLog – nefrologų ir dietologų ekspertų sukurta programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
+- id: headerMoto
+  translation: "kontroliuokite inkstų ligą lengviau"
+
+- id: sectionBenefitsTitle
+  translation: "Teikiamos naudos"
+- id: sectionBenefitsDescription
+  translation: "Siūlau kažkokį description įdėti"
+- id: sectionBenefits1Title
+  translation: "Mitybos kontrolė"
+- id: sectionBenefits1Description
+  translation: "Kontroliuosite savo mitybą lengviau ir paprasčiau"
+- id: sectionBenefits2Title
+  translation: "Tinkama dieta"
+- id: sectionBenefits2Description
+  translation: "Laikysitės Jūsų ligai tinkamos dietos"
+- id: sectionBenefits3Title
+  translation: "Sveikatos būklė"
+- id: sectionBenefits3Description
+  translation: "Išmoksite stebėti savo sveikatos būklę"
+- id: sectionBenefits4Title
+  translation: "Ligos valdymas"
+- id: sectionBenefits4Description
+  translation: "Įgysite pasitikėjimo savimi valdant ligą"
+- id: sectionBenefits5Title
+  translation: "Mažesnė našta"
+- id: sectionBenefits5Description
+  translation: "Sumažinsite kasdienę ligos naštą"
+- id: sectionBenefits6Title
+  translation: "Ligos progresas"
+- id: sectionBenefits6Description
+  translation: "Sulėtinsite lėtinės inkstų ligos progresavimą"
+
+- id: sectionNutritionTitle
+  translation: "Personalizuota mitybos skaičiuoklė"
+- id: sectionNutritionDescription
+  translation: "Siūlau kažkokį description įdėti"
+  
+- id: sectionNutritionStatement1Title
+  translation: "sectionNutritionStatement1Title"
+- id: sectionNutritionStatement1Description
+  translation: "sectionNutritionStatement1Description"
+- id: sectionNutritionStatement2Title
+  translation: "sectionNutritionStatement2Title"
+- id: sectionNutritionStatement2Description
+  translation: "sectionNutritionStatement2Description"
+- id: sectionNutritionStatement3Title
+  translation: "sectionNutritionStatement3Title"
+- id: sectionNutritionStatement3Description
+  translation: "sectionNutritionStatement3Description"
+- id: sectionNutritionStatement4Title
+  translation: "sectionNutritionStatement4Title"
+- id: sectionNutritionStatement4Description
+  translation: "sectionNutritionStatement4Description"
