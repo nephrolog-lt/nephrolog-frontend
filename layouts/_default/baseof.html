@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ T " headerDescription" }}">
+    <meta name="description" content="{{ T "headerDescription" }}">
 
     <title>{{ T "title" }}</title>
 
@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}">
 
     <!--  Open Graph Tags -->
-    <meta property="og:title" content="{{ T " title" }}">
-    <meta property="og:description" content="{{ T " headerDescription" }}">
+    <meta property="og:title" content="{{ T "title" }}">
+    <meta property="og:description" content="{{ T "headerDescription" }}">
     <meta property="og:image" content="{{ resources.Get "img/social-cover.png" | absURL }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
 </head>
@@ -29,7 +29,7 @@
             <div class="row gap-y align-items-center">
 
                 <div class="col-6 col-lg-3">
-                    <a href="index.html"><img src="img/logo-dark.png" alt="logo"></a>
+                    <a href="{{ .Permalink | absURL }}"><img src="img/logo-dark.png" alt="logo"></a>
                 </div>
 
                 <div class="col-6 col-lg-3 text-right order-lg-last">
