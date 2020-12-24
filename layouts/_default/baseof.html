@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ T " languageName" | lower }}">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="{{ T " headerDescription" }}">
 
-    <title>{{.Params.Me}}</title>
+    <title>{{ T "title" }}</title>
 
-    <!-- Styles -->
-    <link href="css/page.min.css" rel="stylesheet">
+    {{ $css := resources.Get "css/page.min.css" }}
+    {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}">
 
     <!--  Open Graph Tags -->
-    <meta property="og:title" content="TheSaaS">
-    <meta property="og:description"
-        content="A responsive, professional, and multipurpose SaaS, Software, Startup and WebApp landing template powered by Bootstrap 4.">
-    <meta property="og:image" content="http://thetheme.io/thesaas/img/og-img.jpg">
-    <meta property="og:url" content="http://thetheme.io/thesaas/">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:title" content="{{ T " title" }}">
+    <meta property="og:description" content="{{ T " headerDescription" }}">
+    <meta property="og:image" content="{{ resources.Get "img/social-cover.png" | absURL }}">
+    <meta property="og:url" content="{{ .Permalink | absURL }}">
 </head>
 
 <body>
@@ -63,10 +58,9 @@
         </div>
     </footer><!-- /.footer -->
 
-
-    <!-- Scripts -->
-    <script src="js/page.min.js"></script>
-
+    {{ $js := resources.Get "js/page.min.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+    <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 </body>
 
 </html>

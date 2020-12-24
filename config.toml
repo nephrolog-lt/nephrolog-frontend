@@ -1,3 +1,10 @@
 baseURL = "https://www.nephrolog.lt/"
 defaultContentLanguage = "lt"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+assetDir = "static"
+
+[languages]
+  [languages.en]
+    languageName = "EN"
+  [languages.lt]
+    languageName = "LT"
