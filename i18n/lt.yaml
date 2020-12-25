@@ -88,11 +88,11 @@
 - id: sectionHealthIndicatorsStatement2Title
   translation: "Sekite dinamiką"
 - id: sectionHealthIndicatorsStatement2Description
-  translation: "Sekite savo sveikatos rodiklių dinamiką."
+  translation: "Sekite savo sveikatos rodiklių dinamiką ir anksti pastebėsite reikšmingus pokyčius."
 - id: sectionHealthIndicatorsStatement3Title
-  translation: "Pastebėkite pokyčius"
+  translation: "Pastebėkite simptomus"
 - id: sectionHealthIndicatorsStatement3Description
-  translation: "Pastebėkite reikšmingus pokyčius anksti"
+  translation: "Atpažinkite elektrolitų trūkumą arba perteklių, stebėdami simptomus."
 - id: sectionHealthIndicatorsStatement4Title
   translation: "Išsaugokite duomenis"
 - id: sectionHealthIndicatorsStatement4Description
