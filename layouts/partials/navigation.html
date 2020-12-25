@@ -13,11 +13,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/">NephroLog</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-partners">{{ T "navPartners" }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-team">{{ T "navTeam" }}</a>
+                </li>
             </ul>
             <div>
                 <nav class="nav nav-navbar d-inline-flex">
-                    {{ range $.Site.Home.AllTranslations }}
-                    <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                    {{ range .Translations }}
+                    <li class="nav-item">
+                        <a rel="alternate" href="{{ .RelPermalink }}" class="nav-link" hreflang="{{ .Lang }}"
+                            lang="{{ .Lang }}">
+                            {{ .Lang | upper }}
+                        </a>
+                    </li>
                     {{ end }}
                 </nav>
             </div>

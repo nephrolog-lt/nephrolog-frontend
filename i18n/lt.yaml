@@ -4,6 +4,12 @@
 - id: title
   translation: "NephroLog - kontroliuokite inkstų ligą lengviau"
 
+# Naivigation
+- id: navTeam
+  translation: "Komanda"
+- id: navPartners
+  translation: "Partneriai"
+
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
@@ -11,6 +17,7 @@
 - id: headerMoto
   translation: "kontroliuokite inkstų ligą lengviau"
 
+# Benefits
 - id: sectionBenefitsTitle
   translation: "Teikiamos naudos"
 - id: sectionBenefitsDescription
@@ -100,3 +107,27 @@
   translation: "karolisRole"
 - id: benasRole
   translation: "BenasRole"
+
+
+  # Partners
+- id: sectionPartnersTitle
+  translation: "NephroLog partneriai"
+- id: sectionPartnersDescription
+  translation: "Kažkoks description"
+
+  # Privacy policy
+- id: privacyPolicyPopupText
+  translation: "Šioje svetainėje naudojame slapukus (angl. „cookies“), kurie padeda užtikrinti geriausią patirtį. Plačiau apie tai "
+- id: privacyPolicyPopupLinkText
+  translation: "privatumo politikoje"
+- id: privacyPolicyPopupAgree
+  translation: "Sutinku"
+  
+
+  # Footer
+- id: footerFairUseRules
+  translation: "Sąžiningo naudojimosi taisyklės"
+- id: footerPrivacyPolicy
+  translation: "Privatumo politika"
+- id: footerAllRightsReserver
+  translation: "Visos teisės saugomos"

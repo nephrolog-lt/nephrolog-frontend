@@ -1,4 +1,4 @@
-<section class="section bg-gray" id="section-team-members">
+<section class="section" id="section-team">
     <div class="container">
         <header class="section-header">
             <h2>{{ T "teamSectionTitle" }}</h2>
@@ -11,16 +11,16 @@
                 <img src="{{ $avatar.RelPermalink }}" alt="{{ .name }}">
                 <h6>{{ .name }}</h6><small class="text-uppercase">{{ T .role}}</small>
                 <div class="social">
-                    <a class="social-skype" href="mailto:{{ .email }}"><i class="icon-envelope"></i></a>
+                    <a class="social-skype" href="mailto:{{ .email }}"><i class="fa fa-envelope"></i></a>
 
                     {{ if (isset .social "facebook") }}
                     <a class="social-facebook" rel="nofollow" target="_blank"
-                        href="{{ .social.facebook }}"><i class="icon-facebook-official"></i></a>
+                        href="{{ .social.facebook }}"><i class="fa fa-facebook-square"></i></a>
                     {{ end }}
 
                     {{ if (isset .social "linkedin") }}
                     <a class="social-linkedin" rel="nofollow" target="_blank" href="{{ .social.linkedin }}">
-                        <i class="icon-linkedin-square"></i>
+                        <i class="fa fa-linkedin-square"></i>
                     </a>
                     {{ end }}
                 </div>

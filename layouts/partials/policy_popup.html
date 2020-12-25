@@ -1,0 +1,15 @@
+<div id="popup-once" class="popup col-9 py-4" data-position="bottom-center" data-animation="slide-up"
+    data-once="gdpr-agreed" data-autoshow="500">
+    <div class="row gap-y align-items-center">
+        <div class="col-md">
+            {{ T "privacyPolicyPopupText" }}
+            {{ $pdf := resources.Get "documents/lt/privacy-policy.pdf" }}
+
+            <a href="{{ $pdf.Permalink }}" target="_blank" rel="nofollow">{{ T "privacyPolicyPopupLinkText"}}</a>.
+        </div>
+
+        <div class="col-md-auto">
+            <button class="btn btn-sm btn-primary" data-dismiss="popup" data-once-button="true">{{ T "privacyPolicyPopupAgree" }}</button>
+        </div>
+    </div>
+</div>
