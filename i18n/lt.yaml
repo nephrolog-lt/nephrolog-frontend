@@ -54,7 +54,7 @@
   translation: "Siūlau kažkokį description įdėti"
   
 - id: sectionNutritionStatement1Title
-  translation: "Įrašykite"
+  translation: "Įrašykite produktą"
 - id: sectionNutritionStatement1Description
   translation: "Įrašykite suvalgytą produktą ir akimirksiu sužinosite, kiek suvartojote kalio, natrio, fosforo, baltymų, skysčių ir kilokalorijų."
 - id: sectionNutritionStatement2Title
@@ -86,17 +86,17 @@
 - id: sectionHealthIndicatorsStatement1Description
   translation: "Fiksuokite patogiai kraujo spaudimą, svorį, šlapimo kiekį, gliukozės koncentraciją kraujyje, patinimus ir savijautą kasdien."
 - id: sectionHealthIndicatorsStatement2Title
-  translation: "Sekite"
+  translation: "Sekite dinamiką"
 - id: sectionHealthIndicatorsStatement2Description
-  translation: "Sekite savo sveikatos rodiklių dinamiką ir anksti pastebėsite reikšmingus pokyčius."
+  translation: "Sekite savo sveikatos rodiklių dinamiką."
 - id: sectionHealthIndicatorsStatement3Title
-  translation: "Išsaugokite"
+  translation: "Pastebėkite pokyčius"
 - id: sectionHealthIndicatorsStatement3Description
-  translation: "Išsaugokite kasdienius duomenis vienoje vietoje: padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
+  translation: "Pastebėkite reikšmingus pokyčius anksti"
 - id: sectionHealthIndicatorsStatement4Title
-  translation: "Kažkas"
+  translation: "Išsaugokite duomenis"
 - id: sectionHealthIndicatorsStatement4Description
-  translation: "Kažkas description"
+  translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą"
 
 # Team
 - id: teamSectionTitle
