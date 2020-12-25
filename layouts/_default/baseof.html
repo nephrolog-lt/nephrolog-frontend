@@ -9,9 +9,8 @@
     <title>{{ T "title" }}</title>
 
     {{ $css := resources.Get "css/page.min.css" }}
-    {{ $secureCSS := $css | resources.Fingerprint "sha512" }}
 
-    <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}">
+    <link href="{{ $css.Permalink }}" rel="stylesheet">
 
     <!--  Open Graph Tags -->
     <meta property="og:title" content="{{ T "title" }}">
@@ -27,8 +26,7 @@
     {{ partial "policy_popup.html" . }}
 
     {{ $js := resources.Get "js/page.min.js" }}
-    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+    <script src="{{ $js.Permalink }}"></script>
 </body>
 
 </html>
