@@ -21,7 +21,7 @@
 - id: sectionBenefitsTitle
   translation: "Teikiamos naudos"
 - id: sectionBenefitsDescription
-  translation: "Siūlau kažkokį description įdėti"
+  translation: ""
 - id: sectionBenefits1Title
   translation: "Mitybos kontrolė"
 - id: sectionBenefits1Description
@@ -51,7 +51,7 @@
 - id: sectionNutritionTitle
   translation: "Personalizuota mitybos skaičiuoklė"
 - id: sectionNutritionDescription
-  translation: "Siūlau kažkokį description įdėti"
+  translation: ""
   
 - id: sectionNutritionStatement1Title
   translation: "Įrašykite produktą"
@@ -96,7 +96,7 @@
 - id: sectionHealthIndicatorsStatement4Title
   translation: "Išsaugokite duomenis"
 - id: sectionHealthIndicatorsStatement4Description
-  translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą"
+  translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
 
 # Team
 - id: teamSectionTitle
