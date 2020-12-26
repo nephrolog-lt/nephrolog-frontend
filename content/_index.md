@@ -26,4 +26,9 @@ team = [
     {"name" = "Giedrė Žulpaitė", "role" = "giedreRole", "photo" = "img/team/giedre-zulpaite.jpg", "email" = "giedrezulpaite@gmail.com", "social" = {"facebook" = "https://www.facebook.com/giedre.zulpaite"}},
     {"name" = "Karolis Vyčius", "role" = "karolisRole", "photo" = "img/team/karolis-vycius.jpeg", "email" = "k.vycius@gmail.com", "social" = {"facebook" = "https://www.facebook.com/vycius/", "linkedin"= "https://www.linkedin.com/in/vycius/"}},{"name" = "Benas Jacikas", "role" = "benasRole", "photo" = "img/team/benas-jacikas.jpeg", "email" = "benaaasaaas@gmail.com", "social" = {"facebook" = "https://www.facebook.com/benaaasaaas", "linkedin"= "https://www.linkedin.com/in/benas-jacikas/"}},
 ]
+
+partners = [
+        {"name" = "sectionPartnersVU", "logo" = "img/partners/vu.png"},
+        {"name" = "sectionPartnersEU", "logo" = "img/partners/es.png"},
+]
 +++

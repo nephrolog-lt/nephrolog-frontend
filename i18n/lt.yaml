@@ -114,6 +114,12 @@
   translation: "NephroLog partneriai"
 - id: sectionPartnersDescription
   translation: "Kažkoks description"
+- id: sectionPartnersEU
+  translation: "Europos sąjunga"
+- id: sectionPartnersVU
+  translation: "Vilniaus universitetas"
+- id: sectionPartnersVUMF
+  translation: "Vilniaus universitetas Medicinos fakultetas"
 
   # Privacy policy
 - id: privacyPolicyPopupText
