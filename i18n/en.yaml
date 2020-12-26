@@ -4,17 +4,24 @@
 - id: title
   translation: "NephroLog - kontroliuokite inkstų ligą lengviau"
 
+# Naivigation
+- id: navTeam
+  translation: "Komanda"
+- id: navPartners
+  translation: "Partneriai"
+
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
   translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
 - id: headerMoto
   translation: "kontroliuokite inkstų ligą lengviau"
+- id: headerComingSoon
+  translation: "Jau greitai"
 
+# Benefits
 - id: sectionBenefitsTitle
   translation: "Teikiamos naudos"
-- id: sectionBenefitsDescription
-  translation: "Siūlau kažkokį description įdėti"
 - id: sectionBenefits1Title
   translation: "Mitybos kontrolė"
 - id: sectionBenefits1Description
@@ -43,11 +50,9 @@
 # Nutrients sector
 - id: sectionNutritionTitle
   translation: "Personalizuota mitybos skaičiuoklė"
-- id: sectionNutritionDescription
-  translation: "Siūlau kažkokį description įdėti"
   
 - id: sectionNutritionStatement1Title
-  translation: "Įrašykite"
+  translation: "Įrašykite produktą"
 - id: sectionNutritionStatement1Description
   translation: "Įrašykite suvalgytą produktą ir akimirksiu sužinosite, kiek suvartojote kalio, natrio, fosforo, baltymų, skysčių ir kilokalorijų."
 - id: sectionNutritionStatement2Title
@@ -71,32 +76,64 @@
 # Health indicators screen
 - id: sectionHealthIndicatorsTitle
   translation: "Sveikatos rodikliai"
-- id: sectionHealthIndicatorsDescription
-  translation: "Siūlau kažkokį description įdėti"
   
 - id: sectionHealthIndicatorsStatement1Title
   translation: "Fiksuokite rodiklius"
 - id: sectionHealthIndicatorsStatement1Description
   translation: "Fiksuokite patogiai kraujo spaudimą, svorį, šlapimo kiekį, gliukozės koncentraciją kraujyje, patinimus ir savijautą kasdien."
 - id: sectionHealthIndicatorsStatement2Title
-  translation: "Sekite"
+  translation: "Sekite dinamiką"
 - id: sectionHealthIndicatorsStatement2Description
   translation: "Sekite savo sveikatos rodiklių dinamiką ir anksti pastebėsite reikšmingus pokyčius."
 - id: sectionHealthIndicatorsStatement3Title
-  translation: "Išsaugokite"
+  translation: "Pastebėkite simptomus"
 - id: sectionHealthIndicatorsStatement3Description
-  translation: "Išsaugokite kasdienius duomenis vienoje vietoje: padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
+  translation: "Atpažinkite elektrolitų trūkumą arba perteklių, stebėdami simptomus."
 - id: sectionHealthIndicatorsStatement4Title
-  translation: "Kažkas"
+  translation: "Išsaugokite duomenis"
 - id: sectionHealthIndicatorsStatement4Description
-  translation: "Kažkas description"
+  translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
 
 # Team
 - id: teamSectionTitle
   translation: "Komanda"
 - id: giedreRole
-  translation: "giedreRole"
+  translation: "Įkūrėja"
 - id: karolisRole
-  translation: "karolisRole"
+  translation: "IT"
 - id: benasRole
-  translation: "BenasRole"
+  translation: "IT"
+- id: editaRole
+  translation: "Gydytoja dietologė"
+- id: laurynasRole
+  translation: "Gydytojas nefrologas"
+
+
+  # Partners
+- id: sectionPartnersTitle
+  translation: "NephroLog partneriai"
+- id: sectionPartnersDescription
+  translation: "Kažkoks description"
+- id: sectionPartnersEU
+  translation: "Europos sąjunga"
+- id: sectionPartnersVU
+  translation: "Vilniaus universitetas"
+- id: sectionPartnersVUMF
+  translation: "Vilniaus universitetas Medicinos fakultetas"
+
+  # Privacy policy
+- id: privacyPolicyPopupText
+  translation: "Šioje svetainėje naudojame slapukus (angl. „cookies“), kurie padeda užtikrinti geriausią patirtį. Plačiau apie tai "
+- id: privacyPolicyPopupLinkText
+  translation: "privatumo politikoje"
+- id: privacyPolicyPopupAgree
+  translation: "Sutinku"
+  
+
+  # Footer
+- id: footerFairUseRules
+  translation: "Sąžiningo naudojimosi taisyklės"
+- id: footerPrivacyPolicy
+  translation: "Privatumo politika"
+- id: footerAllRightsReserver
+  translation: "Visos teisės saugomos"
