@@ -103,6 +103,10 @@
   translation: "IT"
 - id: benasRole
   translation: "IT"
+- id: editaRole
+  translation: "Gydytoja dietologė"
+- id: laurynasRole
+  translation: "Gydytojas nefrologas"
 
 
   # Partners
