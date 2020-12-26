@@ -8,7 +8,7 @@
 
     <title>{{ T "title" }}</title>
 
-    {{ $css := resources.Get "css/page.min.css" }}
+    {{ $css := resources.Get "css/page.min.css" | resources.Fingerprint "sha512" }}
 
     <link href="{{ $css.Permalink }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -41,7 +41,7 @@
     {{ partial "footer.html" . }}
     {{ partial "policy_popup.html" . }}
 
-    {{ $js := resources.Get "js/page.min.js" }}
+    {{ $js := resources.Get "js/page.min.js" | resources.Fingerprint "sha512" }}
     <script src="{{ $js.Permalink }}"></script>
 </body>
 
