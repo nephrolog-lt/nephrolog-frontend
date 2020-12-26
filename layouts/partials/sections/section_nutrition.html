@@ -8,7 +8,7 @@
         <div class="row mt-7">
           {{ range .Params.NutritionStatements }}
           <div class="col-6">
-            <p class="{{ .iconClass }} lead-5"><i class="fa fa-tv"></i></p>
+            <p class="{{ .iconClass }} lead-5"><i class="material-icons md-36">{{ .icon }}</i></p>
             <h5>{{ T .title }}</h5>
             <p>{{ T .description }}</p>
           </div>

@@ -11,7 +11,7 @@
             {{ range .Params.Benefits }}
             <div class="col-md-6 col-xl-4">
                 <div class="media">
-                  <div class="lead-6 line-height-1 {{ .iconClass }} mr-5"><i class="icon-mobile"></i></div>
+                  <div class="lead-6 line-height-1 {{ .iconClass }} mr-5"><i class="material-icons md-48">{{ .icon }}</i></div>
                   <div class="media-body">
                     <h5>{{ T .title }}</h5>
                     <p>{{ T .description }}</p>
