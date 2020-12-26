@@ -7,10 +7,12 @@
                 <h1 class="display-4 my-6"><strong>{{ i18n "headerName" }}</strong> - {{ i18n "headerMoto" }}</h1>
                 <p class="lead-3">{{ i18n "headerDescription" }}</p>
                 <div class="gap-xy-2 mt-7">
-                    <a class="btn btn-lg btn-round btn-white" href="#"><i class="fa fa-apple lead-1 mr-2"></i> App Store</a>
-                    <a class="btn btn-lg btn-round btn-white" href="#"><i class="fa fa-android lead-1 mr-2"></i> Google Play</a>
-                  </div>
-    
+                    <a class="btn btn-lg btn-round btn-white" target="_blank"
+                        href="https://play.google.com/store/apps/details?id=lt.nephrolog&hl={{ T "languageName" | lower }}"><i class="fa fa-android lead-1 mr-2"></i> Google Play</a>
+                    <a class="btn btn-lg btn-round btn-white" data-toggle="tooltip" title="{{ T " headerComingSoon" }}"
+                        href="#"><i class="fa fa-apple lead-1 mr-2"></i> App Store</a>
+                </div>
+
             </div>
             <div class="col-12 align-self-end text-center mt-6">
                 <a class="scroll-down-1 scroll-down-white" href="#section-benefits"><span></span></a>

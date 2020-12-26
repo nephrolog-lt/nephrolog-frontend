@@ -16,6 +16,8 @@
   translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
 - id: headerMoto
   translation: "kontroliuokite inkstų ligą lengviau"
+- id: headerComingSoon
+  translation: "Jau greitai"
 
 # Benefits
 - id: sectionBenefitsTitle
