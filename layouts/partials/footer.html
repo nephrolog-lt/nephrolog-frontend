@@ -1,15 +1,5 @@
     <footer class="footer py-7">
         <div class="container text-center">
-            <div class="social social-lg social-hover-bg-brand">
-                <a class="social-facebook" href="https://www.facebook.com/getpet.lt" rel="me" target="_blank">
-                    <i class="fa fa-facebook"></i></a>
-                <a class="social-instagram" href="https://www.instagram.com/getpet.lt/" rel="me" target="_blank">
-                    <i class="fa fa-instagram"></i></a>
-                <a class="social-linkedin" href="https://www.linkedin.com/company/getpet/" rel="me" target="_blank">
-                    <i class="fa fa-linkedin"></i></a>
-            </div>
-
-            <br>
             {{ $privacyPolicy := resources.Get "documents/lt/privacy-policy.pdf" }}
             {{ $fairUseRules := resources.Get "documents/lt/fair-use-rules.pdf" }}
 
