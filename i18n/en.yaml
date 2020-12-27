@@ -13,11 +13,11 @@
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
-  translation: "NephroLog – the app created by nephrologists and nutritionists which helps to follow a proper kidney friendly diet, track your daily intake of electrolytes, fluids, energy, record and analyze daily changes of your health condition. "
+  translation: "NephroLog – the app created by nephrologists and nutritionists which helps to follow a proper kidney-friendly diet, track your daily intake of electrolytes, fluids, energy, record and analyze daily changes of your health condition."
 - id: headerMoto
   translation: "easier control of the chronic kidney disease"
 - id: headerComingSoon
-  translation: "Soon"
+  translation: "Coming soon"
 
 # Benefits
 - id: sectionBenefitsTitle
@@ -41,7 +41,7 @@
 - id: sectionBenefits5Title
   translation: "Reduced burden"
 - id: sectionBenefits5Description
-  translation: "You will reduce the burden of your kidney disease."
+  translation: "You will reduce the burden of your chronic kidney disease."
 - id: sectionBenefits6Title
   translation: "Progression of CKD"
 - id: sectionBenefits6Description
@@ -115,11 +115,11 @@
 - id: sectionPartnersDescription
   translation: "Kažkoks description"
 - id: sectionPartnersEU
-  translation: "Europos sąjunga"
+  translation: "European Union"
 - id: sectionPartnersVU
-  translation: "Vilniaus universitetas"
+  translation: "Vilnius University"
 - id: sectionPartnersVUMF
-  translation: "Vilniaus universitetas Medicinos fakultetas"
+  translation: "Vilniaus University Faculty of Medicine"
 
   # Privacy policy
 - id: privacyPolicyPopupText
