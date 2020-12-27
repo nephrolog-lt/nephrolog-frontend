@@ -2,6 +2,8 @@ baseURL = "https://www.nephrolog.lt/"
 defaultContentLanguage = "lt"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 assetDir = "static"
+enableRobotsTXT = true
+googleAnalytics = "G-YXL4JPN3HT"
 
 [languages]
   [languages.en]
