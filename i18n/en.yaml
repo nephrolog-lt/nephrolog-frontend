@@ -2,116 +2,116 @@
   translation: "EN"
   
 - id: title
-  translation: "NephroLog - kontroliuokite lėtinę inkstų ligą lengviau"
+  translation: "NephroLog - easier control of the chronic kidney disease!"
 
 # Naivigation
 - id: navTeam
-  translation: "Komanda"
+  translation: "Team"
 - id: navPartners
-  translation: "Partneriai"
+  translation: "Partners"
 
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
-  translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
+  translation: "NephroLog – the app created by nephrologists and nutritionists which helps to follow a proper kidney friendly diet, track your daily intake of electrolytes, fluids, energy, record and analyze daily changes of your health condition. "
 - id: headerMoto
-  translation: "kontroliuokite inkstų ligą lengviau"
+  translation: "easier control of the chronic kidney disease"
 - id: headerComingSoon
-  translation: "Jau greitai"
+  translation: "Soon"
 
 # Benefits
 - id: sectionBenefitsTitle
-  translation: "Teikiamos naudos"
+  translation: "Benefits"
 - id: sectionBenefits1Title
-  translation: "Mitybos kontrolė"
+  translation: "Dietary control"
 - id: sectionBenefits1Description
-  translation: "Kontroliuosite savo mitybą lengviau ir paprasčiau"
+  translation: "You will manage your diet in an easier way."
 - id: sectionBenefits2Title
-  translation: "Tinkama dieta"
+  translation: "Proper diet"
 - id: sectionBenefits2Description
-  translation: "Laikysitės Jūsų ligai tinkamos dietos"
+  translation: "You will follow a proper kidney-friendly diet."
 - id: sectionBenefits3Title
-  translation: "Sveikatos būklė"
+  translation: "Health condition"
 - id: sectionBenefits3Description
-  translation: "Išmoksite stebėti savo sveikatos būklę"
+  translation: "You will learn how to observe the status of your health."
 - id: sectionBenefits4Title
-  translation: "Ligos valdymas"
+  translation: "Management of CKD"
 - id: sectionBenefits4Description
-  translation: "Įgysite pasitikėjimo savimi valdant ligą"
+  translation: "You will gain self-confidence in managing your CKD."
 - id: sectionBenefits5Title
-  translation: "Mažesnė našta"
+  translation: "Reduced burden"
 - id: sectionBenefits5Description
-  translation: "Sumažinsite kasdienę ligos naštą"
+  translation: "You will reduce the burden of your kidney disease."
 - id: sectionBenefits6Title
-  translation: "Ligos progresas"
+  translation: "Progression of CKD"
 - id: sectionBenefits6Description
-  translation: "Sulėtinsite lėtinės inkstų ligos progresavimą"
+  translation: "You will reduce the progression of CKD."
 
 # Nutrients sector
 - id: sectionNutritionTitle
-  translation: "Personalizuota mitybos skaičiuoklė"
+  translation: "Personalised counter of nutrients"
   
 - id: sectionNutritionStatement1Title
-  translation: "Įrašykite produktą"
+  translation: "Type the product"
 - id: sectionNutritionStatement1Description
-  translation: "Įrašykite suvalgytą produktą ir akimirksiu sužinosite, kiek suvartojote kalio, natrio, fosforo, baltymų, skysčių ir kilokalorijų."
+  translation: "Type the product you have eaten and you instantly will find out how much potassium, sodium, phosphorus, proteins, fluids and kilocalories you have consumed."
 - id: sectionNutritionStatement2Title
-  translation: "Matykite dienos progresą"
+  translation: "See the progress of the day"
 - id: sectionNutritionStatement2Description
-  translation: "NephroLog apskaičiuos, kiek ir kokių elektrolitų dar galite šiandien suvartoti, nepakenkdami inkstams."
+  translation: "NephroLog will calculate how much and which electrolytes you can still consume today without causing any damage to your kidneys."
 - id: sectionNutritionStatement3Title
-  translation: "Stebėkite savaitės dinamiką"
+  translation: "Observe the dynamics of the week"
 - id: sectionNutritionStatement3Description
-  translation: "Stebėdami savaitės suvestines žinosite, ar pavyko laikytis taisyklingos inkstams palankios mitybos."
+  translation: "By checking the summaries of the week, you will know if you have managed to follow a proper kidney friendly diet."
 - id: sectionNutritionStatement4Title
-  translation: "Kontroliuokite mitybą"
+  translation: "Control your diet"
 - id: sectionNutritionStatement4Description
-  translation: "Su NephroLog kontroliuokite savo mitybą lengvai ir paprastai."
+  translation: "Control your diet simply and easily with NephroLog."
 
 - id: sectionNutritionTitle
-  translation: "Personalizuota mitybos skaičiuoklė"
+  translation: "Personalised counter of nutrients"
 - id: sectionNutritionDescription
   translation: "Siūlau kažkokį description įdėti"
 
 # Health indicators screen
 - id: sectionHealthIndicatorsTitle
-  translation: "Sveikatos rodikliai"
+  translation: "Health status"
   
 - id: sectionHealthIndicatorsStatement1Title
-  translation: "Fiksuokite rodiklius"
+  translation: "Record your health data"
 - id: sectionHealthIndicatorsStatement1Description
-  translation: "Fiksuokite patogiai kraujo spaudimą, svorį, šlapimo kiekį, gliukozės koncentraciją kraujyje, patinimus ir savijautą kasdien."
+  translation: "Record your blood pressure, weight, urine volume, blood glucose, swelling and well-being on a daily basis."
 - id: sectionHealthIndicatorsStatement2Title
-  translation: "Sekite dinamiką"
+  translation: "Track the dynamics"
 - id: sectionHealthIndicatorsStatement2Description
-  translation: "Sekite savo sveikatos rodiklių dinamiką ir anksti pastebėsite reikšmingus pokyčius."
+  translation: "Track the dynamics of your health status and notice significant changes at an initial stage."
 - id: sectionHealthIndicatorsStatement3Title
-  translation: "Pastebėkite simptomus"
+  translation: "Notice significant symptoms"
 - id: sectionHealthIndicatorsStatement3Description
-  translation: "Atpažinkite elektrolitų trūkumą arba perteklių, stebėdami simptomus."
+  translation: "Identify deficiency or excess of electorolytes by monitoring your symptoms."
 - id: sectionHealthIndicatorsStatement4Title
-  translation: "Išsaugokite duomenis"
+  translation: "Save the data"
 - id: sectionHealthIndicatorsStatement4Description
-  translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
+  translation: "Keep the data of your health status in one place: it will help your doctor to understand your daily well-being and the progress of the CKD."
 
 # Team
 - id: teamSectionTitle
-  translation: "Komanda"
+  translation: "Team"
 - id: giedreRole
-  translation: "Įkūrėja"
+  translation: "Founder"
 - id: karolisRole
   translation: "IT"
 - id: benasRole
   translation: "IT"
 - id: editaRole
-  translation: "Gydytoja dietologė"
+  translation: "Dietitian"
 - id: laurynasRole
-  translation: "Gydytojas nefrologas"
+  translation: "Nephrologist"
 
 
   # Partners
 - id: sectionPartnersTitle
-  translation: "NephroLog partneriai"
+  translation: "NephroLog partners"
 - id: sectionPartnersDescription
   translation: "Kažkoks description"
 - id: sectionPartnersEU
@@ -123,17 +123,17 @@
 
   # Privacy policy
 - id: privacyPolicyPopupText
-  translation: "Šioje svetainėje naudojame slapukus (angl. „cookies“), kurie padeda užtikrinti geriausią patirtį. Plačiau apie tai "
+  translation: "This website uses 'cookies' to give You the best, most relevant experience. You can find out more about them"
 - id: privacyPolicyPopupLinkText
-  translation: "privatumo politikoje"
+  translation: "Privacy policy"
 - id: privacyPolicyPopupAgree
-  translation: "Sutinku"
+  translation: "Agree"
   
 
   # Footer
 - id: footerFairUseRules
-  translation: "Sąžiningo naudojimosi taisyklės"
+  translation: "Fair use rules"
 - id: footerPrivacyPolicy
-  translation: "Privatumo politika"
+  translation: "Privacy policy"
 - id: footerAllRightsReserver
-  translation: "Visos teisės saugomos"
+  translation: "All rights reserved "
