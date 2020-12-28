@@ -4,12 +4,6 @@
 - id: title
   translation: "NephroLog - easier control of the chronic kidney disease!"
 
-# Naivigation
-- id: navTeam
-  translation: "Team"
-- id: navPartners
-  translation: "Partners"
-
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
