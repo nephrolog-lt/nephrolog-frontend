@@ -70,8 +70,6 @@
 
 - id: sectionNutritionTitle
   translation: "Personalizuota mitybos skaičiuoklė"
-- id: sectionNutritionDescription
-  translation: "Siūlau kažkokį description įdėti"
 
 # Health indicators screen
 - id: sectionHealthIndicatorsTitle
@@ -112,8 +110,6 @@
   # Partners
 - id: sectionPartnersTitle
   translation: "NephroLog partneriai"
-- id: sectionPartnersDescription
-  translation: "Kažkoks description"
 - id: sectionPartnersEU
   translation: "Europos sąjunga"
 - id: sectionPartnersVU
