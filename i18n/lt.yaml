@@ -4,12 +4,6 @@
 - id: title
   translation: "NephroLog - kontroliuokite inkstų ligą lengviau"
 
-# Naivigation
-- id: navTeam
-  translation: "Komanda"
-- id: navPartners
-  translation: "Partneriai"
-
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
