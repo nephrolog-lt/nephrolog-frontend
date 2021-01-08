@@ -7,7 +7,7 @@
 - id: headerName
   translation: "NephroLog"
 - id: headerDescription
-  translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
+  translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta lėtine inkstų liga sergantiems programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
 - id: headerMoto
   translation: "kontroliuokite inkstų ligą lengviau"
 - id: headerComingSoon
@@ -23,7 +23,7 @@
 - id: sectionBenefits2Title
   translation: "Tinkama dieta"
 - id: sectionBenefits2Description
-  translation: "Laikysitės Jūsų ligai tinkamos dietos"
+  translation: "Laikysitės lėtinei inkstų ligai tinkamos dietos"
 - id: sectionBenefits3Title
   translation: "Sveikatos būklė"
 - id: sectionBenefits3Description
