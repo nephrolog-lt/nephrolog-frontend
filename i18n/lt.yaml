@@ -2,12 +2,12 @@
   translation: "LT"
   
 - id: title
-  translation: "NephroLog - kontroliuokite inkstų ligą lengviau"
+  translation: "NephroGo - kontroliuokite inkstų ligą lengviau"
 
 - id: headerName
-  translation: "NephroLog"
+  translation: "NephroGo"
 - id: headerDescription
-  translation: "NephroLog – nefrologų ir dietologų ekspertų sukurta lėtine inkstų liga sergantiems programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
+  translation: "NephroGo – nefrologų ir dietologų ekspertų sukurta lėtine inkstų liga sergantiems programėlė, kuri padės Jums tinkamai maitintis, sekti suvartojamų elektrolitų, skysčių bei energijos kiekius, aktyviai sekti savo sveikatos būklę ir jos pokyčius"
 - id: headerMoto
   translation: "kontroliuokite inkstų ligą lengviau"
 - id: headerComingSoon
@@ -52,7 +52,7 @@
 - id: sectionNutritionStatement2Title
   translation: "Matykite dienos progresą"
 - id: sectionNutritionStatement2Description
-  translation: "NephroLog apskaičiuos, kiek ir kokių elektrolitų dar galite šiandien suvartoti, nepakenkdami inkstams."
+  translation: "NephroGo apskaičiuos, kiek ir kokių elektrolitų dar galite šiandien suvartoti, nepakenkdami inkstams."
 - id: sectionNutritionStatement3Title
   translation: "Stebėkite savaitės dinamiką"
 - id: sectionNutritionStatement3Description
@@ -60,7 +60,7 @@
 - id: sectionNutritionStatement4Title
   translation: "Kontroliuokite mitybą"
 - id: sectionNutritionStatement4Description
-  translation: "Su NephroLog kontroliuokite savo mitybą lengvai ir paprastai."
+  translation: "Su NephroGo kontroliuokite savo mitybą lengvai ir paprastai."
 
 - id: sectionNutritionTitle
   translation: "Personalizuota mitybos skaičiuoklė"
@@ -103,7 +103,7 @@
 
   # Partners
 - id: sectionPartnersTitle
-  translation: "NephroLog partneriai"
+  translation: "NephroGo partneriai"
 - id: sectionPartnersEU
   translation: "Europos sąjunga"
 - id: sectionPartnersVU
