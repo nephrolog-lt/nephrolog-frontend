@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.nephrolog.lt/sitemap.xml
+Sitemap: https://www.nephrogo.com/sitemap.xml
