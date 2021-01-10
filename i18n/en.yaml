@@ -2,12 +2,12 @@
   translation: "EN"
   
 - id: title
-  translation: "NephroLog - easier control of the chronic kidney disease!"
+  translation: "NephroGo - easier control of the chronic kidney disease!"
 
 - id: headerName
-  translation: "NephroLog"
+  translation: "NephroGo"
 - id: headerDescription
-  translation: "NephroLog – the app created by nephrologists and nutritionists which helps to follow a proper kidney-friendly diet, track your daily intake of electrolytes, fluids, energy, record and analyze daily changes of your health condition."
+  translation: "NephroGo – the app created by nephrologists and nutritionists which helps to follow a proper kidney-friendly diet, track your daily intake of electrolytes, fluids, energy, record and analyze daily changes of your health condition."
 - id: headerMoto
   translation: "easier control of the chronic kidney disease"
 - id: headerComingSoon
@@ -52,7 +52,7 @@
 - id: sectionNutritionStatement2Title
   translation: "See the progress of the day"
 - id: sectionNutritionStatement2Description
-  translation: "NephroLog will calculate how much and which electrolytes you can still consume today without causing any damage to your kidneys."
+  translation: "NephroGo will calculate how much and which electrolytes you can still consume today without causing any damage to your kidneys."
 - id: sectionNutritionStatement3Title
   translation: "Observe the dynamics of the week"
 - id: sectionNutritionStatement3Description
@@ -60,7 +60,7 @@
 - id: sectionNutritionStatement4Title
   translation: "Control your diet"
 - id: sectionNutritionStatement4Description
-  translation: "Control your diet simply and easily with NephroLog."
+  translation: "Control your diet simply and easily with NephroGo."
 
 - id: sectionNutritionTitle
   translation: "Personalised counter of nutrients"
@@ -103,7 +103,7 @@
 
   # Partners
 - id: sectionPartnersTitle
-  translation: "NephroLog partners"
+  translation: "NephroGo partners"
 - id: sectionPartnersEU
   translation: "European Union"
 - id: sectionPartnersVU
