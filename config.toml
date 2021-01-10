@@ -1,5 +1,5 @@
-baseURL = "https://www.nephrolog.lt/"
-defaultContentLanguage = "lt"
+baseURL = "https://www.nephrogo.com/"
+defaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 assetDir = "static"
 enableRobotsTXT = true
