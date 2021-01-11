@@ -1,4 +1,4 @@
-name: Continous integration for NepgroLog frontend
+name: Continous integration for NepgroGo frontend
 on:
   push:
     branches:
@@ -41,8 +41,6 @@ jobs:
          
       - run: cp -a theme-generator/dist/assets/. static/
 
-      - run: cp CNAME static/CNAME
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -51,8 +49,11 @@ jobs:
       - name: Minify
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NEPHROGO_F06FE }}'
+          channelId: live
+          projectId: nephrogo-f06fe
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
