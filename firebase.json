@@ -5,6 +5,7 @@
          "public":"public/en",
          "headers":[
             {
+               "source": "*",
                "headers":[
                   {
                      "key":"Strict-Transport-Security",
@@ -19,6 +20,7 @@
          "public":"public/lt",
          "headers":[
             {
+               "source": "*",
                "headers":[
                   {
                      "key":"Strict-Transport-Security",
