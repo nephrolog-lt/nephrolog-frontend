@@ -1,12 +1,32 @@
 {
-  "hosting":[
-     {
-        "target":"landing-en",
-        "public":"public/en"
-     },
-     {
-        "target":"landing-lt",
-        "public":"public/lt"
-     }
-  ]
+   "hosting":[
+      {
+         "target":"landing-en",
+         "public":"public/en",
+         "headers":[
+            {
+               "headers":[
+                  {
+                     "key":"Strict-Transport-Security",
+                     "value":"max-age=31536000; includeSubDomains; preload"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "target":"landing-lt",
+         "public":"public/lt",
+         "headers":[
+            {
+               "headers":[
+                  {
+                     "key":"Strict-Transport-Security",
+                     "value":"max-age=31536000; includeSubDomains; preload"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
 }
