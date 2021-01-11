@@ -13,6 +13,14 @@
 - id: headerComingSoon
   translation: "Coming soon"
 
+- id: logoDescription
+  translation: NephroGo logo
+
+- id: nextLanguageTitle
+  translation: LT
+- id: nextLanguageURL
+  translation: https://www.nephrogo.lt/
+
 # Benefits
 - id: sectionBenefitsTitle
   translation: "Benefits"
@@ -90,11 +98,9 @@
 - id: teamSectionTitle
   translation: "Team"
 - id: giedreRole
-  translation: "Founder"
+  translation: "Co-founder"
 - id: karolisRole
-  translation: "IT"
-- id: benasRole
-  translation: "IT"
+  translation: "Co-founder"
 - id: editaRole
   translation: "Dietitian"
 - id: laurynasRole

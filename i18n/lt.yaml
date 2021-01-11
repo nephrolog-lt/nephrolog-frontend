@@ -13,6 +13,14 @@
 - id: headerComingSoon
   translation: "Jau greitai"
 
+- id: logoDescription
+  translation: NephroGo logotipas
+
+- id: nextLanguageTitle
+  translation: EN
+- id: nextLanguageURL
+  translation: https://www.nephrogo.com/
+
 # Benefits
 - id: sectionBenefitsTitle
   translation: "Teikiamos naudos"
@@ -92,9 +100,7 @@
 - id: giedreRole
   translation: "Įkūrėja"
 - id: karolisRole
-  translation: "IT"
-- id: benasRole
-  translation: "IT"
+  translation: "Įkūrėjas"
 - id: editaRole
   translation: "Gydytoja dietologė"
 - id: laurynasRole

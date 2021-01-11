@@ -2,27 +2,25 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-5">
+            <div class="hidden-md col-lg-5">
             </div>
 
             <div class="col-5 col-lg-2 text-lg-center">
                 <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
                 <a class="navbar-brand" href="{{ .Permalink }}">
-                    <img class="logo-light" src="{{ resources.Get "/img/logo-light.png" | relURL }}" alt="NephroGo logo">
-                    <img class="logo-dark" src="{{ resources.Get "/img/logo-dark.png" | relURL }}" alt="NephroGo logo">
+                    <img class="logo-light" src="{{ resources.Get "/img/logo-light.png" | relURL }}" alt="{{ T "logoDescription" }}">
+                    <img class="logo-dark" src="{{ resources.Get "/img/logo-dark.png" | relURL }}" alt="{{ T "logoDescription" }}">
                 </a>
             </div>
 
             <div class="col-7 col-lg-5 text-right">
                 <nav class="nav nav-navbar d-inline-flex">
-                    {{ range .Translations }}
                     <div class="nav-item">
-                        <a rel="alternate" href="{{ .RelPermalink }}" class="nav-link" hreflang="{{ .Lang }}"
-                            lang="{{ .Lang }}">
-                            {{ .Lang | upper }}
+                        <a rel="alternate" href="{{ T "nextLanguageURL" }}" class="nav-link" hreflang="{{ T "nextLanguageTitle" |lower }}"
+                            lang="{{ T "nextLanguageTitle" | lower }}">
+                            {{ T "nextLanguageTitle" }}
                         </a>
                     </div>
-                    {{ end }}
                 </nav>
             </div>
 
