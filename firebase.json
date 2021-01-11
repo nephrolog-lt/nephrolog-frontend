@@ -2,11 +2,11 @@
   "hosting":[
      {
         "target":"landing-en",
-        "public":"public"
+        "public":"public/en"
      },
      {
         "target":"landing-lt",
-        "public":"public"
+        "public":"public/lt"
      }
   ]
 }
