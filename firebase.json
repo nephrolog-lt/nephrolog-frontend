@@ -1,10 +1,12 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting":[
+     {
+        "target":"landing-en",
+        "public":"public"
+     },
+     {
+        "target":"landing-lt",
+        "public":"public"
+     }
+  ]
 }
