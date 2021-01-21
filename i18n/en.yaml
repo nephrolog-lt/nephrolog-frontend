@@ -21,6 +21,9 @@
 - id: nextLanguageURL
   translation: https://www.nephrogo.lt/
 
+- id: googleAnalyticsMeasurementId
+  translation: G-X8PMMMC5PK
+
 # Benefits
 - id: sectionBenefitsTitle
   translation: "Benefits"

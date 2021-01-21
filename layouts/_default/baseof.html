@@ -33,6 +33,16 @@
     <meta property="og:description" content="{{ T "headerDescription" }}">
     <meta property="og:image" content="{{ resources.Get "img/social-cover.png" | absURL }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-18HV6KCPCK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ T "googleAnalyticsMeasurementId" }}');
+    </script>
 </head>
 
 <body>
