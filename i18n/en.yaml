@@ -101,7 +101,7 @@
 - id: sectionPeritonealStatement1Title
   translation: "Perform peritoneal dialysis"
 - id: sectionPeritonealStatement1Description
-  translation: "NephroGo is suituable for both ‚manual‘ and automatic dialysis."
+  translation: "NephroGo is suituable for both 'manual' and automatic dialysis."
 - id: sectionPeritonealStatement2Title
   translation: "Track the dynamics of fluid balance"
 - id: sectionPeritonealStatement2Description
