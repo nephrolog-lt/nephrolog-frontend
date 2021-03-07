@@ -1,6 +1,6 @@
 +++
 benefits = [
-    {"title" = "sectionBenefits1Title", "description" = "sectionBenefits1Description", "icon" = "follow_the_signs", "iconClass" = "text-dark"},
+    {"title" = "sectionBenefits1Title", "description" = "sectionBenefits1Description", "icon" = "water_damage", "iconClass" = "text-dark"},
     {"title" = "sectionBenefits2Title", "description" = "sectionBenefits2Description", "icon" = "add_task", "iconClass" = "text-primary"},
     {"title" = "sectionBenefits3Title", "description" = "sectionBenefits3Description", "icon" = "addchart", "iconClass" = "text-info"},
     {"title" = "sectionBenefits4Title", "description" = "sectionBenefits4Description", "icon" = "self_improvement", "iconClass" = "text-warning"},

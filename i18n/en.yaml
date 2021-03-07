@@ -28,29 +28,29 @@
 - id: sectionBenefitsTitle
   translation: "Benefits"
 - id: sectionBenefits1Title
-  translation: "Dietary control"
+  translation: "Peritoneal dialysis"
 - id: sectionBenefits1Description
-  translation: "You will manage your diet in an easier way."
+  translation: "You will perform peritoneal dialysis conveniently with NephroGo"
 - id: sectionBenefits2Title
   translation: "Proper diet"
 - id: sectionBenefits2Description
-  translation: "You will follow a proper kidney-friendly diet."
+  translation: "You will follow a proper kidney-friendly diet"
 - id: sectionBenefits3Title
   translation: "Health condition"
 - id: sectionBenefits3Description
-  translation: "You will learn how to observe the status of your health."
+  translation: "You will learn how to observe the status of your health"
 - id: sectionBenefits4Title
   translation: "Management of CKD"
 - id: sectionBenefits4Description
-  translation: "You will gain self-confidence in managing your CKD."
+  translation: "You will gain self-confidence in managing your CKD"
 - id: sectionBenefits5Title
   translation: "Reduced burden"
 - id: sectionBenefits5Description
-  translation: "You will reduce the burden of your chronic kidney disease."
+  translation: "You will reduce the burden of your chronic kidney disease"
 - id: sectionBenefits6Title
   translation: "Progression of CKD"
 - id: sectionBenefits6Description
-  translation: "You will reduce the progression of CKD."
+  translation: "You will reduce the progression of CKD"
 
 # Nutrients sector
 - id: sectionNutritionTitle
