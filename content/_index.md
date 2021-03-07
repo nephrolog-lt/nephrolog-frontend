@@ -19,6 +19,12 @@ healthIndicatorsStatements = [
     {"title" = "sectionHealthIndicatorsStatement3Title", "description" = "sectionHealthIndicatorsStatement3Description", "icon" = "notification_important", "iconClass" = "text-primary"},
     {"title" = "sectionHealthIndicatorsStatement4Title", "description" = "sectionHealthIndicatorsStatement4Description", "icon" = "save_alt", "iconClass" = "text-pink"},
 ]
+peritonealDialysisStatements = [
+    {"title" = "sectionPeritonealStatement1Title", "description" = "sectionPeritonealStatement1Description", "icon" = "water_damage", "iconClass" = "text-warning"},
+    {"title" = "sectionPeritonealStatement2Title", "description" = "sectionPeritonealStatement2Description", "icon" = "local_drink", "iconClass" = "text-info"},
+    {"title" = "sectionPeritonealStatement3Title", "description" = "sectionPeritonealStatement3Description", "icon" = "monitor_weight", "iconClass" = "text-primary"},
+    {"title" = "sectionPeritonealStatement4Title", "description" = "sectionPeritonealStatement4Description", "icon" = "assignment", "iconClass" = "text-pink"},
+]
 
 team = [
     {"name" = "Giedrė Žulpaitė", "role" = "giedreRole", "photo" = "img/team/giedre.jpg", "email" = "giedrezulpaite@gmail.com", "social" = {"facebook" = "https://www.facebook.com/giedre.zulpaite"}},

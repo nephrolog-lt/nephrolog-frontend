@@ -1,0 +1,26 @@
+<section class="section pb-0 bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 align-self-center pb-7">
+        <h2>{{ T "sectionPeritonealTitle" }}</h2>
+
+        <div class="row mt-7">
+          {{ range .Params.peritonealDialysisStatements }}
+          <div class="col-6">
+            <p class="{{ .iconClass }} lead-5"><i class="material-icons md-36">{{ .icon }}</i></p>
+            <h5>{{ T .title }}</h5>
+            <p>{{ T .description }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="col-md-5 text-center order-md-first">
+        {{ with resources.Get "img/app/screen-peritoneal-dialysis.png" }}
+          {{ $thumb := (.Resize "300x").RelPermalink }}
+          <img class="mr-40" src="{{ $thumb }}" alt="{{ T " sectionPeritonealTitle" }}">
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

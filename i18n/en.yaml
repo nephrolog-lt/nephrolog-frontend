@@ -73,9 +73,6 @@
 - id: sectionNutritionStatement4Description
   translation: "Control your diet simply and easily with NephroGo."
 
-- id: sectionNutritionTitle
-  translation: "Personalised counter of nutrients"
-
 # Health indicators screen
 - id: sectionHealthIndicatorsTitle
   translation: "Health status"
@@ -96,6 +93,28 @@
   translation: "Save the data"
 - id: sectionHealthIndicatorsStatement4Description
   translation: "Keep the data of your health status in one place: it will help your doctor to understand your daily well-being and the progress of the CKD."
+
+# Peritoneal dialysis
+- id: sectionPeritonealTitle
+  translation: "Peritoneal dialysis"
+  
+- id: sectionPeritonealStatement1Title
+  translation: "Perform peritoneal dialysis"
+- id: sectionPeritonealStatement1Description
+  translation: "NephroGo is suituable for both ‚manual‘ and automatic dialysis."
+- id: sectionPeritonealStatement2Title
+  translation: "Track the dynamics of fluid balance"
+- id: sectionPeritonealStatement2Description
+  translation: "Enter the data of dialysis solutions, amount of urine and drinks and NephroGo will calculate your fluid balance."
+- id: sectionPeritonealStatement3Title
+  translation: "Monitor your health status"
+- id: sectionPeritonealStatement3Description
+  translation: "Record arterial blood pressure, pulse, body weight and urine volume before the dialysis."
+- id: sectionPeritonealStatement4Title
+  translation: "Get a dialysis record"
+- id: sectionPeritonealStatement4Description
+  translation: "NephroGo will prepare a dialysis data sheet for you which you can easily share with your doctor."
+
 
 # Team
 - id: teamSectionTitle

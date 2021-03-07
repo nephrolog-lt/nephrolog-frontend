@@ -73,9 +73,6 @@
 - id: sectionNutritionStatement4Description
   translation: "Su NephroGo kontroliuokite savo mitybą lengvai ir paprastai."
 
-- id: sectionNutritionTitle
-  translation: "Personalizuota mitybos skaičiuoklė"
-
 # Health indicators screen
 - id: sectionHealthIndicatorsTitle
   translation: "Sveikatos rodikliai"
@@ -96,6 +93,28 @@
   translation: "Išsaugokite duomenis"
 - id: sectionHealthIndicatorsStatement4Description
   translation: "Išsaugokite kasdienius duomenis vienoje vietoje - padėsite gydytojui vizitų metu geriau suprasti ligos progresą ir kasdienę Jūsų savijautą."
+
+# Peritoneal dialysis
+- id: sectionPeritonealTitle
+  translation: "Peritoninė dializė"
+  
+- id: sectionPeritonealStatement1Title
+  translation: "Atlikite peritoninę dializę"
+- id: sectionPeritonealStatement1Description
+  translation: "NephroGo yra pritaikytas ir „rankinei“ ir automatinei peritoninei dializei."
+- id: sectionPeritonealStatement2Title
+  translation: "Sekite skysčių balansą"
+- id: sectionPeritonealStatement2Description
+  translation: "Įveskite dializės tirpalų duomenis, išgertų skysčių bei šlapimo kiekį ir NephroGo apskaičiuos skysčių balansą."
+- id: sectionPeritonealStatement3Title
+  translation: "Stebėkite sveikatos rodiklius"
+- id: sectionPeritonealStatement3Description
+  translation: "Prieš atlikdami dializę išsaugokite duomenis apie arterinį kraujo spaudimą, pulsą, kūno svorį, šlapimo kiekį."
+- id: sectionPeritonealStatement4Title
+  translation: "Gaukite suvestinę"
+- id: sectionPeritonealStatement4Description
+  translation: "NephroGo Jums paruoš dializės duomenų suvestinę, kuria lengvai galėsite pasidalinti su savo gydytoju."
+
 
 # Team
 - id: teamSectionTitle
